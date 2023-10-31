@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container">
+        
+        
+        <div class="info">
+            
+            <img src="imgs/myAva.jpg" alt="аватарка пользователя " class="avatar" width="200px">
+            
+            
+            <div class="info-text">
+                <h1> Владимир Андреев</h1>
+                <p>
+                    Я учусь в Тюменском индустриальном университете на первом курсе на направлении "Информационные системы и технологии".
+                    Я люблю играть на гитаре, заниматься спортом и программировать.
+                </p>
+
+                <h2>Список социальных сетей</h2>
+                
+                <a href="https://vk.com/shokmal" target="_blank">ВК</a>
+                |
+                <a href="https://github.com/shokmal" target="_blank">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="card hobby">
+            <h2>Хобби</h2>
+            <ul>
+                <li>игра на гитаре</li>
+                <li>катание на сноуборде</li>
+            </ul>
+        </div>
+
+        <div class="card work">
+            <h2>Опыт работы</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название </th>
+                        <th>Должность</th>
+                        <th>Период работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ребячка</td>
+                        <td>Вожатый</td>
+                        <td>2 недели</td>
+                    </tr>
+                    <tr>
+                        <td>Институт</td>
+                        <td>Студент</td>
+                        <td>1 месяц</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <form action="/" class="card connection">
+            <h3>Связаться со мной</h3>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше Имя</label>
+                    <input type="text" id="name" placeholder="Введите Имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш Email</label>
+                    <input type="email" id="email" placeholder="Введите Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше Сообщение</label>
+                <textarea id="message" cols="25" rows="5" placeholder="Сообщение"></textarea>
+            </div>
+
+            <div class="button">
+                <button class="button-sund">Отправить</button>
+            </div>    
+        </form>
+    </div>
+</body>
+</html>
